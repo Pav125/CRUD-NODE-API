@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://devipavan824:oPch1bslYgCac5Lm@backenddb.wpgtwoh.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB"
+    "mongodb+srv://devipavan824:<password>@backenddb.wpgtwoh.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB"
   )
   .then(() => {
     console.log("Connected to database!");
